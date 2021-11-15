@@ -1,0 +1,31 @@
+---
+title: "Visualising data with ggplot2"
+subtitle: "<br><br> Data Science in a Box"
+author: "[datasciencebox.org](https://datasciencebox.org/)"
+output:
+  xaringan::moon_reader:
+    css: ["../xaringan-themer.css", "../slides.css"]
+    lib_dir: libs
+    nature:
+      ratio: "16:9"
+      highlightLines: true
+      highlightStyle: solarized-light
+      countIncrementalSlides: false
+---
+```{r xaringan-editable, echo=FALSE}
+xaringanExtra::use_editable(expires = 1)
+```
+## .can-edit[You can edit this slide title]
+## .can-edit[$x^2+5x+6=0$]
+```{r xaringan-scribble, echo=FALSE}
+xaringanExtra::use_scribble()
+```
+$x^2+5x+6=0$
+```{r}
+xaringanExtra::use_webcam()
+```
+```{r broadcast, echo=FALSE}
+xaringanExtra::use_broadcast()
+```
+
+---
